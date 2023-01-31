@@ -13,6 +13,7 @@
   background-image: url(./img/backimg.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .top-content__title {
   width: 788px;
@@ -86,6 +87,10 @@
   box-sizing: border-box;
   border-radius: 16px;
   margin-bottom: 128px;
+}
+.games-menu__item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px #ccc;
 }
 .games-menu__item--item1 {
   background-image: url(./img/game1.jpg);
@@ -167,5 +172,9 @@
     padding: 0;
     padding-left: 16px;
     padding-bottom: 32px;
+  }
+  .games-menu__item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc;
   }
 }/*# sourceMappingURL=style.css.map */
