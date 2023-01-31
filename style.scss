@@ -13,6 +13,7 @@
     background-image: url(./img/backimg.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 
 
     &__title {
@@ -95,6 +96,11 @@
         box-sizing: border-box;
         border-radius: 16px;
         margin-bottom: 128px;
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 5px #ccc;
+        }
         
 
         &--item1 {

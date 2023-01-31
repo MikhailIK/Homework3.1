@@ -79,6 +79,11 @@
             padding: 0;
             padding-left: 16px;
             padding-bottom: 32px;
+
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 0 5px #ccc;
+            }
         }
     }
 
